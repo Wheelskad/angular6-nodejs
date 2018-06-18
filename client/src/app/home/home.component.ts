@@ -7,7 +7,8 @@ import { LuisService } from '../providers/luis.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  private strValue = '';
+  strValue = '';
+  title = 'Angular6';
 
   constructor(private luisService: LuisService) { }
 

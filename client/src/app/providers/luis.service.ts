@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment';
 
-const api = 'http://localhost:3000/api';
+const api = environment.apiUrl;
 
 @Injectable()
 export class LuisService {
