@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NodeJS
 
-Run `node index.js` for a dev server. Navigate to `http://localhost:3000/` to access website and `http://localhost:3000/api` to access web API.
+Run `node server.js` for a dev server. Navigate to `http://localhost:3000/` to access website and `http://localhost:3000/api` to access web API.
